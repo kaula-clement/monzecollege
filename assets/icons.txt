@@ -1,0 +1,16 @@
+math: ri-discuss-line icon
+		<x-phosphor-math-operations />
+		<x-fluentui-math-formula-16 />
+	science
+		<x-gameicon-materials-science />
+		<x-eos-science-o />
+	social
+		<x-uni-social-distancing-o />
+		<x-gmdi-social-distance-o />
+	language
+		<x-entypo-language />
+	tech
+		<x-grommet-technology />
+	edu
+		<x-gmdi-cast-for-education-o />
+		<x-carbon-ibm-cloud-for-education />
