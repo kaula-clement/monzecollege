@@ -6,6 +6,53 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+/*------------------------------------------------------------
+ #text
+ -------------------------------------------------------------*/
+.text-orange{
+  color:#fc8301 !important
+}
+.text-green{
+  color:#34c947 !important
+}
+.text-blue{
+  color:#00abee !important;
+  /* box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4); */
+}
+.text-yellow{
+  color:#f4bc09 !important
+}
+.text-brown{
+  color:#6e5717 !important
+}
+
+
+
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+    --bs-btn-border-radius: 0.5rem;
+}
+.btn-orange {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fc8301;
+    --bs-btn-border-color: #fc8301;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d46f02;
+    --bs-btn-hover-border-color: #eb7c05;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #eb7c05;
+    --bs-btn-active-border-color: #eb7c05;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fc8301;
+    --bs-btn-disabled-border-color: #fc8301;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -16,6 +63,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+}
+.landing{
+  padding-top: 5rem !important;
 }
 
 a {
@@ -654,14 +704,16 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: #4154f1;
+  /* color: #4154f1; */
+  color: #fc8301;
 }
 
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0b198f;
+  /* color: #0b198f; */
+  color: #fc8301;
 }
 
 .counts .count-box p {
@@ -840,20 +892,24 @@ section {
 }
 
 .services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+  /* border-bottom: 3px solid #2db6fa; */
+  border-bottom: 3px solid #00abee;
 }
 
 .services .service-box.blue .icon {
-  color: #2db6fa;
+  /* color: #2db6fa; */
+  color:#00abee;
   background: #dbf3fe;
 }
 
 .services .service-box.blue .read-more {
-  color: #2db6fa;
+  /* color: #2db6fa; */
+  color:#00abee;
 }
 
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  /* background: #2db6fa; */
+  background:#00abee;
 }
 
 .services .service-box.orange {
@@ -1611,7 +1667,8 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  /* color: #4154f1; */
+  color: #fc8301;
 }
 
 .contact .info-box h3 {
@@ -1696,7 +1753,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  /* background: #4154f1; */
+  background: #fc8301;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -2275,14 +2333,16 @@ section {
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #4154f1;
+  /* background: #4154f1; */
+  background: #fc8301;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
 }
 
 .footer .footer-newsletter form input[type=submit]:hover {
-  background: #5969f3;
+  /* background: #5969f3; */
+  background: #fc8301;
 }
 
 .footer .footer-top {
