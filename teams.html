@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Monze College Teams</title>
+  <meta content="Team" name="description">
+  <meta content="Monze College,Colleges" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img2/3196.jpg" rel="icon">
+  <link href="assets/img2/3196.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    hr
+    {
+        border: 1px solid #858585;
+    }
+
+    .team
+    {
+        margin-top: 25px;
+    }
+
+        .team h1
+        {
+            font-weight: normal;
+            font-size: 22px;
+            margin: 10px 0 0 0;
+        }
+
+        .team h2
+        {
+            font-size: 16px;
+            font-weight: lighter;
+            margin-top: 5px;
+        }
+
+        .team .img-box
+        {
+            opacity: 1;
+            display: block;
+            position: relative;
+        }
+
+            .team .img-box:after
+            {
+                content: "";
+                opacity: 0;
+                background-color: rgba(0, 0, 0, 0.75);
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 0;
+                bottom: 0;
+            }
+
+    .img-box ul
+    {
+        position: absolute;
+        z-index: 2;
+        bottom: 50px;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+        height: 0px;
+        margin: 0px;
+        opacity: 0;
+    }
+
+        .team .img-box:after, .img-box ul, .img-box ul li
+        {
+            -webkit-transition: all 0.5s ease-in-out 0s;
+            -moz-transition: all 0.5s ease-in-out 0s;
+            transition: all 0.5s ease-in-out 0s;
+        }
+
+            .img-box ul i
+            {
+                font-size: 20px;
+                letter-spacing: 10px;
+            }
+
+            .img-box ul li
+            {
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                border: 1px solid #fff;
+                margin: 2px;
+                padding: 5px;
+                display: inline-block;
+            }
+
+    .img-box a
+    {
+        color: #fff;
+    }
+
+    .img-box:hover:after
+    {
+        opacity: 1;
+    }
+
+    .img-box:hover ul
+    {
+        opacity: 1;
+    }
+
+    .img-box ul a
+    {
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .img-box a:hover li
+    {
+        border-color: #FFEA05;
+        color: #FFEA05;
+    }
+
+    .img-box a
+    {
+        color: #FFEA05;
+    }
+
+        .img-box a:hover
+        {
+            text-decoration: none;
+            color: #519548;
+        }
+</style>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img2/3196.jpg" alt="Logo">
+        <span class="toptitle">Monze College</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto " href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="#programes">Programes</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
+          <li><a class="nav-link scrollto" href="#sections">Sections</a></li>
+          <li><a class="nav-link scrollto active" href="#team">Team</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Comming soon</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Comming soon</a></li>
+                  <li><a href="#">Comming soon</a></li>
+                  <li><a href="#">Comming soon</a></li>
+                  <li><a href="#">Comming soon</a></li>
+                  <!-- <li><a href="#">Deep Drop Down 5</a></li> -->
+                </ul>
+              </li>
+              <li><a href="#">Comming soon</a></li>
+              <li><a href="#">Comming soon</a></li>
+              <!-- <li><a href="#">Drop Down 4</a></li> -->
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section id="testimonials" class="team">
+
+      <div class="container" data-aos="fade-up">
+        <header class="section-header p-5 mt-3">
+          <h2 style="font-size:x-large;">OUR TEAM</h2>
+          <p style="font-size:large;">We have an experienced and highly proffessional member of staff team</p>
+        </header>
+
+        
+    
+       
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img3/Mr Manunga SEN Spec Founder.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-instagram"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>MR Manunga</h4>
+                <span>SEN Specialist & College Founder</span>
+                <!-- <p>Bio details about the EN Specialist & College Founder</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img3/Mr Bwanga Director Admin.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-instagram"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>MR Bwanga</h4>
+                <span>Director Administration</span>
+                <!-- <p>Bio details about the Director Administration</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img3/Mr Mwanamope Registrar.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-instagram"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>MR Mwanamope</h4>
+                <span>College Registrar</span>
+                <!-- <p>Bio details about the College Registrar here</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img3/Accountant.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-instagram"></i></a>
+                  <a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Kalenda Musepa</h4>
+                <span>College Accountant</span>
+                <!-- <p>Bio details about the accountant here</p> -->
+              </div>
+            </div>
+          </div>
+
+        
+   
+
+        </div>
+
+        <div class="container">
+          <div class="row">
+             
+              <div class="row pt-md">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid" alt="Responsive Team Profiles" src="assets/img3/Mr Moonga Expresive Art HOD.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>Mr Moonga</h1>
+                      <h2>HOD Expresive Art</h2>
+                     
+                      <!-- <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid"  alt="Responsive Team Profiles" src="assets/img3/ms Walubita HOD H.Ebg.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>Ms Walubita </h1>
+                      <h2>HOD H.E</h2>
+                      <!-- <hr />
+                      <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid" alt="Responsive Team Profiles" src="assets/img3/MR Kaleba HOD Science.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>MR Kaleba</h1>
+                      <h2>HOD Science</h2>
+                      <!-- <hr />
+                      <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid" alt="Responsive Team Profiles" src="assets/img3/Mr Hambokoma HOD Tech Studiesbg.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>Mr Hambokoma</h1>
+                      <h2>HOD Technology Studies</h2>
+                      <!-- <hr />
+                      <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid" alt="Responsive Team Profiles" src="assets/img3/support staff.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>Support Staff</h1>
+                      <h2>Support Staff</h2>
+                      <!-- <hr />
+                      <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 team">
+                      <div class="img-box">
+                          <img class="img-fluid" alt="Responsive Team Profiles" src="assets/img3/support staff 2.jpg" />
+                          <ul class="text-xs-center">
+                              <a href="#">
+                                  <li><i class="fa fa-facebook"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-twitter"></i></li>
+                              </a>
+                              <a href="#">
+                                  <li><i class="fa fa-linkedin"></i></li>
+                              </a>
+                          </ul>
+                      </div>
+                      <h1>Support Staff</h1>
+                      <h2>Support Staff</h2>
+                      <!-- <hr />
+                      <p class="text-justify">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p> -->
+                  </div>
+
+       
+              </div>
+          </div>
+      </div>
+      
+    
+    
+      </div>
+    
+    </section>
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>monze college of education Newsletter</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img2/3196.jpg" alt="">
+              <span>Monze College</span>
+            </a>
+            <p>We are a college of Education offering Primary diploma, Secondary diploma and Early Childhood diploma under both full time and distance education.</p>
+            <div class="social-links mt-3">
+              <a href="javascript:void(0)" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="javascript:void(0)" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="javascript:void(0)" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="javascript:void(0)" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Programes</a></li>
+              <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+              <li><i class="bi bi-chevron-right"></i> <a href="javascript:void(0)">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Programes</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="javascript:void(0)">Assistant Teacher</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="javascript:void(0)">Secondary Education</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="javascript:void(0)">Early Childhood Education</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="javascript:void(0)">Primary Education</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              P.O. Box 660223 <br>
+              Monze, Monze 10101<br>
+              Zambia<br><br>
+              <strong>Phone:</strong> +260 974672986<br>
+              <strong>Email:</strong> info@####.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Monze College</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">kaulaclement@gmail.com</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
